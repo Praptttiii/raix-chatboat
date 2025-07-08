@@ -61,3 +61,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "raix", require: "raix"
+
+gem "graphql", "~> 2.5"
+gem "graphiql-rails", group: :development
+
+gem "dotenv", "~> 3.1"
